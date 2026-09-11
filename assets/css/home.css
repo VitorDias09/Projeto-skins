@@ -11,15 +11,15 @@ main{
 header{
     width: 100%;
     height: 20vh;
-    background: #333;
+    background: #000;
     float: left; 
-    border: 2px solid #000;
+    border: 2px solid #fff;
     border-left: none;
     border-right: none;
     border-top: none;
 }
 header h1{
-    color: #ccc;
+    color: #8C43F7;
     font-size: 5rem;
     text-align: center;
     margin-top: 3vh;
@@ -31,7 +31,7 @@ header h1{
     background: #ccc;
     float: left; 
     padding: 1%;
-    border: 2px solid #000;
+    border: 2px solid #fff;
     border-left: none;
     border-right: none;
 }
@@ -42,7 +42,7 @@ header h1{
     background: #F74352
 }
 .game h2{
-    color: #ccc;
+    color: #fff;
     font-weight: bold;
     text-align: center;
     font-size: 1.8rem;
@@ -51,9 +51,9 @@ header h1{
 footer{
     width: 100%;
     height: 10vh;
-    background: #333;
+    background: #000;
     float: left; 
-    border: 2px solid #000;
+    border: 2px solid #fff;
     border-left: none;
     border-right: none;
     border-bottom: none;
@@ -72,5 +72,11 @@ footer p{
     background: #ccc;
     margin-left: 1.8%;
     border-radius: 4vh;
+    margin-top: 1vh;
+}
+.skins h1{
+    color: #000;
+    font-size: 1.2rem;
+    text-align: center;
     margin-top: 1vh;
 }
